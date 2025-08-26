@@ -1,0 +1,902 @@
+2025-05-16 03:48:27,125 - CNN - INFO - fed_isac_cnn
+2025-05-16 03:48:35,520 - CNN - INFO - Namespace(E=3000, T=300, all_clients=False, bs=128, dataset='mnist', device=device(type='cuda', index=3), epochs=300, eta=0.05322576, frac=1, gpu=3, iid=True, kernel_num=9, kernel_sizes='3,4,5', local_bs=10, local_ep=10, lr=0.1, max_pool='True', model='cnn', momentum=0.5, norm='batch_norm', num_channels=3, num_classes=7, num_filters=32, num_users=10, rule='pmax', seed=1, split='user', stopping_rounds=10, var=0.02, verbose=False)
+2025-05-16 03:48:43,809 - CNN - INFO - Epoch: 1
+2025-05-16 03:48:43,809 - CNN - INFO - Train loss: 2.2560
+2025-05-16 03:48:48,058 - CNN - INFO - average test acc: 14.29%
+2025-05-16 03:48:54,813 - CNN - INFO - Epoch: 2
+2025-05-16 03:48:54,813 - CNN - INFO - Train loss: 1.5338
+2025-05-16 03:48:59,011 - CNN - INFO - average test acc: 14.28%
+2025-05-16 03:49:05,974 - CNN - INFO - Epoch: 3
+2025-05-16 03:49:05,974 - CNN - INFO - Train loss: 1.3280
+2025-05-16 03:49:10,261 - CNN - INFO - average test acc: 14.33%
+2025-05-16 03:49:17,398 - CNN - INFO - Epoch: 4
+2025-05-16 03:49:17,399 - CNN - INFO - Train loss: 1.1822
+2025-05-16 03:49:21,687 - CNN - INFO - average test acc: 20.33%
+2025-05-16 03:49:28,646 - CNN - INFO - Epoch: 5
+2025-05-16 03:49:28,647 - CNN - INFO - Train loss: 1.0976
+2025-05-16 03:49:32,938 - CNN - INFO - average test acc: 20.79%
+2025-05-16 03:49:39,801 - CNN - INFO - Epoch: 6
+2025-05-16 03:49:39,801 - CNN - INFO - Train loss: 1.0475
+2025-05-16 03:49:44,118 - CNN - INFO - average test acc: 32.89%
+2025-05-16 03:49:51,217 - CNN - INFO - Epoch: 7
+2025-05-16 03:49:51,217 - CNN - INFO - Train loss: 0.9476
+2025-05-16 03:49:55,548 - CNN - INFO - average test acc: 35.71%
+2025-05-16 03:50:02,829 - CNN - INFO - Epoch: 8
+2025-05-16 03:50:02,829 - CNN - INFO - Train loss: 0.9325
+2025-05-16 03:50:07,160 - CNN - INFO - average test acc: 46.33%
+2025-05-16 03:50:14,073 - CNN - INFO - Epoch: 9
+2025-05-16 03:50:14,073 - CNN - INFO - Train loss: 0.8808
+2025-05-16 03:50:18,440 - CNN - INFO - average test acc: 49.96%
+2025-05-16 03:50:25,727 - CNN - INFO - Epoch: 10
+2025-05-16 03:50:25,727 - CNN - INFO - Train loss: 0.8278
+2025-05-16 03:50:30,139 - CNN - INFO - average test acc: 51.07%
+2025-05-16 03:50:37,257 - CNN - INFO - Epoch: 11
+2025-05-16 03:50:37,257 - CNN - INFO - Train loss: 0.7938
+2025-05-16 03:50:41,664 - CNN - INFO - average test acc: 56.21%
+2025-05-16 03:50:48,635 - CNN - INFO - Epoch: 12
+2025-05-16 03:50:48,635 - CNN - INFO - Train loss: 0.7621
+2025-05-16 03:50:53,051 - CNN - INFO - average test acc: 54.60%
+2025-05-16 03:51:00,222 - CNN - INFO - Epoch: 13
+2025-05-16 03:51:00,222 - CNN - INFO - Train loss: 0.7335
+2025-05-16 03:51:04,666 - CNN - INFO - average test acc: 57.90%
+2025-05-16 03:51:11,987 - CNN - INFO - Epoch: 14
+2025-05-16 03:51:11,987 - CNN - INFO - Train loss: 0.7011
+2025-05-16 03:51:16,520 - CNN - INFO - average test acc: 55.95%
+2025-05-16 03:51:23,593 - CNN - INFO - Epoch: 15
+2025-05-16 03:51:23,593 - CNN - INFO - Train loss: 0.6948
+2025-05-16 03:51:28,129 - CNN - INFO - average test acc: 59.42%
+2025-05-16 03:51:35,571 - CNN - INFO - Epoch: 16
+2025-05-16 03:51:35,571 - CNN - INFO - Train loss: 0.6655
+2025-05-16 03:51:40,085 - CNN - INFO - average test acc: 57.93%
+2025-05-16 03:51:47,216 - CNN - INFO - Epoch: 17
+2025-05-16 03:51:47,216 - CNN - INFO - Train loss: 0.6784
+2025-05-16 03:51:51,773 - CNN - INFO - average test acc: 68.20%
+2025-05-16 03:51:58,884 - CNN - INFO - Epoch: 18
+2025-05-16 03:51:58,884 - CNN - INFO - Train loss: 0.6164
+2025-05-16 03:52:03,444 - CNN - INFO - average test acc: 65.60%
+2025-05-16 03:52:10,726 - CNN - INFO - Epoch: 19
+2025-05-16 03:52:10,726 - CNN - INFO - Train loss: 0.6185
+2025-05-16 03:52:15,263 - CNN - INFO - average test acc: 67.49%
+2025-05-16 03:52:22,449 - CNN - INFO - Epoch: 20
+2025-05-16 03:52:22,449 - CNN - INFO - Train loss: 0.6116
+2025-05-16 03:52:27,037 - CNN - INFO - average test acc: 71.08%
+2025-05-16 03:52:34,093 - CNN - INFO - Epoch: 21
+2025-05-16 03:52:34,093 - CNN - INFO - Train loss: 0.5784
+2025-05-16 03:52:38,614 - CNN - INFO - average test acc: 70.06%
+2025-05-16 03:52:45,880 - CNN - INFO - Epoch: 22
+2025-05-16 03:52:45,880 - CNN - INFO - Train loss: 0.5677
+2025-05-16 03:52:50,569 - CNN - INFO - average test acc: 68.83%
+2025-05-16 03:52:57,924 - CNN - INFO - Epoch: 23
+2025-05-16 03:52:57,925 - CNN - INFO - Train loss: 0.5721
+2025-05-16 03:53:02,574 - CNN - INFO - average test acc: 69.47%
+2025-05-16 03:53:09,813 - CNN - INFO - Epoch: 24
+2025-05-16 03:53:09,813 - CNN - INFO - Train loss: 0.5568
+2025-05-16 03:53:14,460 - CNN - INFO - average test acc: 69.34%
+2025-05-16 03:53:21,708 - CNN - INFO - Epoch: 25
+2025-05-16 03:53:21,708 - CNN - INFO - Train loss: 0.5406
+2025-05-16 03:53:26,382 - CNN - INFO - average test acc: 72.36%
+2025-05-16 03:53:33,563 - CNN - INFO - Epoch: 26
+2025-05-16 03:53:33,563 - CNN - INFO - Train loss: 0.5409
+2025-05-16 03:53:38,208 - CNN - INFO - average test acc: 73.25%
+2025-05-16 03:53:45,442 - CNN - INFO - Epoch: 27
+2025-05-16 03:53:45,442 - CNN - INFO - Train loss: 0.5386
+2025-05-16 03:53:50,041 - CNN - INFO - average test acc: 73.74%
+2025-05-16 03:53:57,486 - CNN - INFO - Epoch: 28
+2025-05-16 03:53:57,487 - CNN - INFO - Train loss: 0.4886
+2025-05-16 03:54:02,113 - CNN - INFO - average test acc: 74.32%
+2025-05-16 03:54:09,299 - CNN - INFO - Epoch: 29
+2025-05-16 03:54:09,300 - CNN - INFO - Train loss: 0.5049
+2025-05-16 03:54:13,868 - CNN - INFO - average test acc: 77.05%
+2025-05-16 03:54:21,054 - CNN - INFO - Epoch: 30
+2025-05-16 03:54:21,055 - CNN - INFO - Train loss: 0.4903
+2025-05-16 03:54:25,624 - CNN - INFO - average test acc: 77.90%
+2025-05-16 03:54:32,929 - CNN - INFO - Epoch: 31
+2025-05-16 03:54:32,930 - CNN - INFO - Train loss: 0.4638
+2025-05-16 03:54:37,471 - CNN - INFO - average test acc: 75.25%
+2025-05-16 03:54:44,541 - CNN - INFO - Epoch: 32
+2025-05-16 03:54:44,541 - CNN - INFO - Train loss: 0.4708
+2025-05-16 03:54:48,945 - CNN - INFO - average test acc: 74.79%
+2025-05-16 03:54:55,836 - CNN - INFO - Epoch: 33
+2025-05-16 03:54:55,836 - CNN - INFO - Train loss: 0.4762
+2025-05-16 03:55:00,259 - CNN - INFO - average test acc: 77.38%
+2025-05-16 03:55:07,261 - CNN - INFO - Epoch: 34
+2025-05-16 03:55:07,262 - CNN - INFO - Train loss: 0.5037
+2025-05-16 03:55:11,663 - CNN - INFO - average test acc: 77.79%
+2025-05-16 03:55:18,562 - CNN - INFO - Epoch: 35
+2025-05-16 03:55:18,562 - CNN - INFO - Train loss: 0.4822
+2025-05-16 03:55:22,976 - CNN - INFO - average test acc: 77.87%
+2025-05-16 03:55:29,973 - CNN - INFO - Epoch: 36
+2025-05-16 03:55:29,973 - CNN - INFO - Train loss: 0.4658
+2025-05-16 03:55:34,389 - CNN - INFO - average test acc: 78.17%
+2025-05-16 03:55:41,425 - CNN - INFO - Epoch: 37
+2025-05-16 03:55:41,426 - CNN - INFO - Train loss: 0.4467
+2025-05-16 03:55:45,973 - CNN - INFO - average test acc: 78.10%
+2025-05-16 03:55:53,045 - CNN - INFO - Epoch: 38
+2025-05-16 03:55:53,045 - CNN - INFO - Train loss: 0.4302
+2025-05-16 03:55:57,605 - CNN - INFO - average test acc: 77.60%
+2025-05-16 03:56:04,692 - CNN - INFO - Epoch: 39
+2025-05-16 03:56:04,692 - CNN - INFO - Train loss: 0.4566
+2025-05-16 03:56:09,173 - CNN - INFO - average test acc: 77.97%
+2025-05-16 03:56:16,142 - CNN - INFO - Epoch: 40
+2025-05-16 03:56:16,142 - CNN - INFO - Train loss: 0.4352
+2025-05-16 03:56:20,537 - CNN - INFO - average test acc: 78.52%
+2025-05-16 03:56:27,533 - CNN - INFO - Epoch: 41
+2025-05-16 03:56:27,534 - CNN - INFO - Train loss: 0.4444
+2025-05-16 03:56:31,897 - CNN - INFO - average test acc: 75.75%
+2025-05-16 03:56:38,958 - CNN - INFO - Epoch: 42
+2025-05-16 03:56:38,959 - CNN - INFO - Train loss: 0.4354
+2025-05-16 03:56:43,314 - CNN - INFO - average test acc: 82.85%
+2025-05-16 03:56:50,306 - CNN - INFO - Epoch: 43
+2025-05-16 03:56:50,306 - CNN - INFO - Train loss: 0.4213
+2025-05-16 03:56:54,711 - CNN - INFO - average test acc: 79.94%
+2025-05-16 03:57:01,648 - CNN - INFO - Epoch: 44
+2025-05-16 03:57:01,648 - CNN - INFO - Train loss: 0.4216
+2025-05-16 03:57:06,058 - CNN - INFO - average test acc: 78.87%
+2025-05-16 03:57:13,106 - CNN - INFO - Epoch: 45
+2025-05-16 03:57:13,106 - CNN - INFO - Train loss: 0.4175
+2025-05-16 03:57:17,556 - CNN - INFO - average test acc: 78.83%
+2025-05-16 03:57:24,572 - CNN - INFO - Epoch: 46
+2025-05-16 03:57:24,572 - CNN - INFO - Train loss: 0.4410
+2025-05-16 03:57:28,939 - CNN - INFO - average test acc: 80.28%
+2025-05-16 03:57:36,069 - CNN - INFO - Epoch: 47
+2025-05-16 03:57:36,069 - CNN - INFO - Train loss: 0.4066
+2025-05-16 03:57:40,428 - CNN - INFO - average test acc: 82.17%
+2025-05-16 03:57:47,387 - CNN - INFO - Epoch: 48
+2025-05-16 03:57:47,387 - CNN - INFO - Train loss: 0.3918
+2025-05-16 03:57:51,736 - CNN - INFO - average test acc: 82.75%
+2025-05-16 03:57:58,673 - CNN - INFO - Epoch: 49
+2025-05-16 03:57:58,673 - CNN - INFO - Train loss: 0.4038
+2025-05-16 03:58:03,049 - CNN - INFO - average test acc: 83.10%
+2025-05-16 03:58:09,994 - CNN - INFO - Epoch: 50
+2025-05-16 03:58:09,995 - CNN - INFO - Train loss: 0.4148
+2025-05-16 03:58:14,461 - CNN - INFO - average test acc: 79.60%
+2025-05-16 03:58:21,449 - CNN - INFO - Epoch: 51
+2025-05-16 03:58:21,449 - CNN - INFO - Train loss: 0.4000
+2025-05-16 03:58:25,813 - CNN - INFO - average test acc: 81.08%
+2025-05-16 03:58:32,803 - CNN - INFO - Epoch: 52
+2025-05-16 03:58:32,803 - CNN - INFO - Train loss: 0.3896
+2025-05-16 03:58:37,156 - CNN - INFO - average test acc: 80.84%
+2025-05-16 03:58:44,215 - CNN - INFO - Epoch: 53
+2025-05-16 03:58:44,215 - CNN - INFO - Train loss: 0.3875
+2025-05-16 03:58:48,600 - CNN - INFO - average test acc: 81.25%
+2025-05-16 03:58:56,059 - CNN - INFO - Epoch: 54
+2025-05-16 03:58:56,059 - CNN - INFO - Train loss: 0.3710
+2025-05-16 03:59:00,427 - CNN - INFO - average test acc: 81.89%
+2025-05-16 03:59:07,433 - CNN - INFO - Epoch: 55
+2025-05-16 03:59:07,433 - CNN - INFO - Train loss: 0.3785
+2025-05-16 03:59:11,781 - CNN - INFO - average test acc: 83.00%
+2025-05-16 03:59:18,756 - CNN - INFO - Epoch: 56
+2025-05-16 03:59:18,756 - CNN - INFO - Train loss: 0.3762
+2025-05-16 03:59:23,153 - CNN - INFO - average test acc: 79.79%
+2025-05-16 03:59:30,085 - CNN - INFO - Epoch: 57
+2025-05-16 03:59:30,085 - CNN - INFO - Train loss: 0.3677
+2025-05-16 03:59:34,362 - CNN - INFO - average test acc: 82.79%
+2025-05-16 03:59:41,242 - CNN - INFO - Epoch: 58
+2025-05-16 03:59:41,242 - CNN - INFO - Train loss: 0.3859
+2025-05-16 03:59:45,570 - CNN - INFO - average test acc: 82.90%
+2025-05-16 03:59:52,569 - CNN - INFO - Epoch: 59
+2025-05-16 03:59:52,569 - CNN - INFO - Train loss: 0.3802
+2025-05-16 03:59:56,846 - CNN - INFO - average test acc: 81.61%
+2025-05-16 04:00:03,706 - CNN - INFO - Epoch: 60
+2025-05-16 04:00:03,706 - CNN - INFO - Train loss: 0.3590
+2025-05-16 04:00:07,991 - CNN - INFO - average test acc: 78.81%
+2025-05-16 04:00:14,912 - CNN - INFO - Epoch: 61
+2025-05-16 04:00:14,912 - CNN - INFO - Train loss: 0.3665
+2025-05-16 04:00:19,204 - CNN - INFO - average test acc: 82.80%
+2025-05-16 04:00:26,312 - CNN - INFO - Epoch: 62
+2025-05-16 04:00:26,312 - CNN - INFO - Train loss: 0.3654
+2025-05-16 04:00:30,660 - CNN - INFO - average test acc: 83.07%
+2025-05-16 04:00:37,704 - CNN - INFO - Epoch: 63
+2025-05-16 04:00:37,704 - CNN - INFO - Train loss: 0.3665
+2025-05-16 04:00:42,051 - CNN - INFO - average test acc: 84.06%
+2025-05-16 04:00:48,955 - CNN - INFO - Epoch: 64
+2025-05-16 04:00:48,955 - CNN - INFO - Train loss: 0.3730
+2025-05-16 04:00:53,209 - CNN - INFO - average test acc: 82.30%
+2025-05-16 04:01:00,169 - CNN - INFO - Epoch: 65
+2025-05-16 04:01:00,169 - CNN - INFO - Train loss: 0.3622
+2025-05-16 04:01:04,485 - CNN - INFO - average test acc: 83.00%
+2025-05-16 04:01:11,385 - CNN - INFO - Epoch: 66
+2025-05-16 04:01:11,385 - CNN - INFO - Train loss: 0.3522
+2025-05-16 04:01:15,641 - CNN - INFO - average test acc: 82.12%
+2025-05-16 04:01:22,637 - CNN - INFO - Epoch: 67
+2025-05-16 04:01:22,637 - CNN - INFO - Train loss: 0.3622
+2025-05-16 04:01:26,954 - CNN - INFO - average test acc: 83.02%
+2025-05-16 04:01:33,885 - CNN - INFO - Epoch: 68
+2025-05-16 04:01:33,885 - CNN - INFO - Train loss: 0.3356
+2025-05-16 04:01:38,180 - CNN - INFO - average test acc: 83.35%
+2025-05-16 04:01:45,068 - CNN - INFO - Epoch: 69
+2025-05-16 04:01:45,068 - CNN - INFO - Train loss: 0.3554
+2025-05-16 04:01:49,377 - CNN - INFO - average test acc: 83.38%
+2025-05-16 04:01:56,285 - CNN - INFO - Epoch: 70
+2025-05-16 04:01:56,286 - CNN - INFO - Train loss: 0.3308
+2025-05-16 04:02:00,545 - CNN - INFO - average test acc: 82.95%
+2025-05-16 04:02:07,475 - CNN - INFO - Epoch: 71
+2025-05-16 04:02:07,475 - CNN - INFO - Train loss: 0.3475
+2025-05-16 04:02:11,747 - CNN - INFO - average test acc: 86.10%
+2025-05-16 04:02:18,985 - CNN - INFO - Epoch: 72
+2025-05-16 04:02:18,985 - CNN - INFO - Train loss: 0.3363
+2025-05-16 04:02:23,294 - CNN - INFO - average test acc: 84.29%
+2025-05-16 04:02:30,219 - CNN - INFO - Epoch: 73
+2025-05-16 04:02:30,219 - CNN - INFO - Train loss: 0.3161
+2025-05-16 04:02:34,504 - CNN - INFO - average test acc: 85.79%
+2025-05-16 04:02:41,289 - CNN - INFO - Epoch: 74
+2025-05-16 04:02:41,289 - CNN - INFO - Train loss: 0.3444
+2025-05-16 04:02:45,552 - CNN - INFO - average test acc: 85.27%
+2025-05-16 04:02:52,499 - CNN - INFO - Epoch: 75
+2025-05-16 04:02:52,499 - CNN - INFO - Train loss: 0.3358
+2025-05-16 04:02:56,709 - CNN - INFO - average test acc: 83.75%
+2025-05-16 04:03:03,333 - CNN - INFO - Epoch: 76
+2025-05-16 04:03:03,333 - CNN - INFO - Train loss: 0.3011
+2025-05-16 04:03:07,496 - CNN - INFO - average test acc: 86.06%
+2025-05-16 04:03:14,361 - CNN - INFO - Epoch: 77
+2025-05-16 04:03:14,361 - CNN - INFO - Train loss: 0.3275
+2025-05-16 04:03:18,522 - CNN - INFO - average test acc: 86.26%
+2025-05-16 04:03:25,683 - CNN - INFO - Epoch: 78
+2025-05-16 04:03:25,684 - CNN - INFO - Train loss: 0.3220
+2025-05-16 04:03:29,835 - CNN - INFO - average test acc: 84.95%
+2025-05-16 04:03:36,903 - CNN - INFO - Epoch: 79
+2025-05-16 04:03:36,903 - CNN - INFO - Train loss: 0.3279
+2025-05-16 04:03:41,103 - CNN - INFO - average test acc: 85.79%
+2025-05-16 04:03:48,154 - CNN - INFO - Epoch: 80
+2025-05-16 04:03:48,154 - CNN - INFO - Train loss: 0.2976
+2025-05-16 04:03:52,266 - CNN - INFO - average test acc: 83.51%
+2025-05-16 04:03:59,198 - CNN - INFO - Epoch: 81
+2025-05-16 04:03:59,199 - CNN - INFO - Train loss: 0.3183
+2025-05-16 04:04:03,373 - CNN - INFO - average test acc: 87.09%
+2025-05-16 04:04:10,173 - CNN - INFO - Epoch: 82
+2025-05-16 04:04:10,173 - CNN - INFO - Train loss: 0.3111
+2025-05-16 04:04:14,316 - CNN - INFO - average test acc: 84.34%
+2025-05-16 04:04:21,293 - CNN - INFO - Epoch: 83
+2025-05-16 04:04:21,293 - CNN - INFO - Train loss: 0.3247
+2025-05-16 04:04:25,527 - CNN - INFO - average test acc: 86.33%
+2025-05-16 04:04:32,445 - CNN - INFO - Epoch: 84
+2025-05-16 04:04:32,445 - CNN - INFO - Train loss: 0.3178
+2025-05-16 04:04:36,589 - CNN - INFO - average test acc: 85.88%
+2025-05-16 04:04:43,564 - CNN - INFO - Epoch: 85
+2025-05-16 04:04:43,564 - CNN - INFO - Train loss: 0.3215
+2025-05-16 04:04:47,708 - CNN - INFO - average test acc: 84.58%
+2025-05-16 04:04:54,530 - CNN - INFO - Epoch: 86
+2025-05-16 04:04:54,530 - CNN - INFO - Train loss: 0.3007
+2025-05-16 04:04:58,636 - CNN - INFO - average test acc: 86.84%
+2025-05-16 04:05:05,192 - CNN - INFO - Epoch: 87
+2025-05-16 04:05:05,192 - CNN - INFO - Train loss: 0.3018
+2025-05-16 04:05:09,301 - CNN - INFO - average test acc: 84.63%
+2025-05-16 04:05:15,961 - CNN - INFO - Epoch: 88
+2025-05-16 04:05:15,961 - CNN - INFO - Train loss: 0.3089
+2025-05-16 04:05:20,025 - CNN - INFO - average test acc: 83.97%
+2025-05-16 04:05:27,147 - CNN - INFO - Epoch: 89
+2025-05-16 04:05:27,147 - CNN - INFO - Train loss: 0.3199
+2025-05-16 04:05:31,185 - CNN - INFO - average test acc: 86.24%
+2025-05-16 04:05:38,075 - CNN - INFO - Epoch: 90
+2025-05-16 04:05:38,075 - CNN - INFO - Train loss: 0.3199
+2025-05-16 04:05:42,136 - CNN - INFO - average test acc: 86.84%
+2025-05-16 04:05:48,902 - CNN - INFO - Epoch: 91
+2025-05-16 04:05:48,902 - CNN - INFO - Train loss: 0.2885
+2025-05-16 04:05:52,955 - CNN - INFO - average test acc: 85.45%
+2025-05-16 04:05:59,835 - CNN - INFO - Epoch: 92
+2025-05-16 04:05:59,836 - CNN - INFO - Train loss: 0.2897
+2025-05-16 04:06:03,910 - CNN - INFO - average test acc: 86.89%
+2025-05-16 04:06:10,842 - CNN - INFO - Epoch: 93
+2025-05-16 04:06:10,842 - CNN - INFO - Train loss: 0.2992
+2025-05-16 04:06:14,919 - CNN - INFO - average test acc: 86.72%
+2025-05-16 04:06:21,924 - CNN - INFO - Epoch: 94
+2025-05-16 04:06:21,925 - CNN - INFO - Train loss: 0.2725
+2025-05-16 04:06:25,968 - CNN - INFO - average test acc: 87.02%
+2025-05-16 04:06:32,815 - CNN - INFO - Epoch: 95
+2025-05-16 04:06:32,815 - CNN - INFO - Train loss: 0.3037
+2025-05-16 04:06:36,903 - CNN - INFO - average test acc: 87.40%
+2025-05-16 04:06:43,480 - CNN - INFO - Epoch: 96
+2025-05-16 04:06:43,480 - CNN - INFO - Train loss: 0.3010
+2025-05-16 04:06:47,564 - CNN - INFO - average test acc: 85.02%
+2025-05-16 04:06:54,253 - CNN - INFO - Epoch: 97
+2025-05-16 04:06:54,253 - CNN - INFO - Train loss: 0.2912
+2025-05-16 04:06:58,400 - CNN - INFO - average test acc: 87.02%
+2025-05-16 04:07:05,149 - CNN - INFO - Epoch: 98
+2025-05-16 04:07:05,149 - CNN - INFO - Train loss: 0.3113
+2025-05-16 04:07:09,279 - CNN - INFO - average test acc: 87.06%
+2025-05-16 04:07:16,231 - CNN - INFO - Epoch: 99
+2025-05-16 04:07:16,231 - CNN - INFO - Train loss: 0.2878
+2025-05-16 04:07:20,390 - CNN - INFO - average test acc: 86.91%
+2025-05-16 04:07:27,343 - CNN - INFO - Epoch: 100
+2025-05-16 04:07:27,343 - CNN - INFO - Train loss: 0.2897
+2025-05-16 04:07:31,452 - CNN - INFO - average test acc: 86.75%
+2025-05-16 04:07:38,327 - CNN - INFO - Epoch: 101
+2025-05-16 04:07:38,327 - CNN - INFO - Train loss: 0.2910
+2025-05-16 04:07:42,487 - CNN - INFO - average test acc: 87.03%
+2025-05-16 04:07:49,072 - CNN - INFO - Epoch: 102
+2025-05-16 04:07:49,072 - CNN - INFO - Train loss: 0.2815
+2025-05-16 04:07:53,292 - CNN - INFO - average test acc: 87.76%
+2025-05-16 04:08:00,126 - CNN - INFO - Epoch: 103
+2025-05-16 04:08:00,127 - CNN - INFO - Train loss: 0.2860
+2025-05-16 04:08:04,315 - CNN - INFO - average test acc: 85.71%
+2025-05-16 04:08:11,141 - CNN - INFO - Epoch: 104
+2025-05-16 04:08:11,141 - CNN - INFO - Train loss: 0.2830
+2025-05-16 04:08:15,296 - CNN - INFO - average test acc: 86.64%
+2025-05-16 04:08:22,230 - CNN - INFO - Epoch: 105
+2025-05-16 04:08:22,231 - CNN - INFO - Train loss: 0.2874
+2025-05-16 04:08:26,452 - CNN - INFO - average test acc: 87.40%
+2025-05-16 04:08:33,365 - CNN - INFO - Epoch: 106
+2025-05-16 04:08:33,365 - CNN - INFO - Train loss: 0.2816
+2025-05-16 04:08:37,615 - CNN - INFO - average test acc: 86.89%
+2025-05-16 04:08:44,586 - CNN - INFO - Epoch: 107
+2025-05-16 04:08:44,586 - CNN - INFO - Train loss: 0.2805
+2025-05-16 04:08:48,801 - CNN - INFO - average test acc: 86.45%
+2025-05-16 04:08:55,711 - CNN - INFO - Epoch: 108
+2025-05-16 04:08:55,711 - CNN - INFO - Train loss: 0.2642
+2025-05-16 04:08:59,916 - CNN - INFO - average test acc: 86.66%
+2025-05-16 04:09:06,749 - CNN - INFO - Epoch: 109
+2025-05-16 04:09:06,749 - CNN - INFO - Train loss: 0.2973
+2025-05-16 04:09:10,951 - CNN - INFO - average test acc: 88.92%
+2025-05-16 04:09:17,581 - CNN - INFO - Epoch: 110
+2025-05-16 04:09:17,582 - CNN - INFO - Train loss: 0.2599
+2025-05-16 04:09:21,736 - CNN - INFO - average test acc: 87.81%
+2025-05-16 04:09:28,562 - CNN - INFO - Epoch: 111
+2025-05-16 04:09:28,562 - CNN - INFO - Train loss: 0.2712
+2025-05-16 04:09:32,781 - CNN - INFO - average test acc: 86.40%
+2025-05-16 04:09:39,735 - CNN - INFO - Epoch: 112
+2025-05-16 04:09:39,735 - CNN - INFO - Train loss: 0.2773
+2025-05-16 04:09:44,008 - CNN - INFO - average test acc: 87.55%
+2025-05-16 04:09:50,999 - CNN - INFO - Epoch: 113
+2025-05-16 04:09:50,999 - CNN - INFO - Train loss: 0.2725
+2025-05-16 04:09:55,220 - CNN - INFO - average test acc: 88.03%
+2025-05-16 04:10:02,135 - CNN - INFO - Epoch: 114
+2025-05-16 04:10:02,135 - CNN - INFO - Train loss: 0.2732
+2025-05-16 04:10:06,352 - CNN - INFO - average test acc: 86.79%
+2025-05-16 04:10:13,216 - CNN - INFO - Epoch: 115
+2025-05-16 04:10:13,216 - CNN - INFO - Train loss: 0.2510
+2025-05-16 04:10:17,432 - CNN - INFO - average test acc: 87.68%
+2025-05-16 04:10:24,255 - CNN - INFO - Epoch: 116
+2025-05-16 04:10:24,255 - CNN - INFO - Train loss: 0.2602
+2025-05-16 04:10:28,495 - CNN - INFO - average test acc: 88.33%
+2025-05-16 04:10:35,264 - CNN - INFO - Epoch: 117
+2025-05-16 04:10:35,264 - CNN - INFO - Train loss: 0.2789
+2025-05-16 04:10:39,490 - CNN - INFO - average test acc: 85.13%
+2025-05-16 04:10:46,349 - CNN - INFO - Epoch: 118
+2025-05-16 04:10:46,349 - CNN - INFO - Train loss: 0.2585
+2025-05-16 04:10:50,652 - CNN - INFO - average test acc: 87.53%
+2025-05-16 04:10:57,535 - CNN - INFO - Epoch: 119
+2025-05-16 04:10:57,535 - CNN - INFO - Train loss: 0.2593
+2025-05-16 04:11:01,761 - CNN - INFO - average test acc: 88.57%
+2025-05-16 04:11:08,786 - CNN - INFO - Epoch: 120
+2025-05-16 04:11:08,786 - CNN - INFO - Train loss: 0.2805
+2025-05-16 04:11:13,060 - CNN - INFO - average test acc: 87.00%
+2025-05-16 04:11:20,020 - CNN - INFO - Epoch: 121
+2025-05-16 04:11:20,020 - CNN - INFO - Train loss: 0.2834
+2025-05-16 04:11:24,265 - CNN - INFO - average test acc: 87.42%
+2025-05-16 04:11:31,212 - CNN - INFO - Epoch: 122
+2025-05-16 04:11:31,212 - CNN - INFO - Train loss: 0.2648
+2025-05-16 04:11:35,514 - CNN - INFO - average test acc: 89.85%
+2025-05-16 04:11:42,406 - CNN - INFO - Epoch: 123
+2025-05-16 04:11:42,406 - CNN - INFO - Train loss: 0.2452
+2025-05-16 04:11:46,655 - CNN - INFO - average test acc: 88.79%
+2025-05-16 04:11:53,480 - CNN - INFO - Epoch: 124
+2025-05-16 04:11:53,480 - CNN - INFO - Train loss: 0.2717
+2025-05-16 04:11:57,742 - CNN - INFO - average test acc: 87.15%
+2025-05-16 04:12:04,586 - CNN - INFO - Epoch: 125
+2025-05-16 04:12:04,586 - CNN - INFO - Train loss: 0.2921
+2025-05-16 04:12:08,876 - CNN - INFO - average test acc: 88.64%
+2025-05-16 04:12:15,892 - CNN - INFO - Epoch: 126
+2025-05-16 04:12:15,892 - CNN - INFO - Train loss: 0.2581
+2025-05-16 04:12:20,175 - CNN - INFO - average test acc: 89.39%
+2025-05-16 04:12:27,159 - CNN - INFO - Epoch: 127
+2025-05-16 04:12:27,159 - CNN - INFO - Train loss: 0.2767
+2025-05-16 04:12:31,505 - CNN - INFO - average test acc: 88.87%
+2025-05-16 04:12:38,425 - CNN - INFO - Epoch: 128
+2025-05-16 04:12:38,425 - CNN - INFO - Train loss: 0.2689
+2025-05-16 04:12:42,698 - CNN - INFO - average test acc: 88.03%
+2025-05-16 04:12:49,656 - CNN - INFO - Epoch: 129
+2025-05-16 04:12:49,656 - CNN - INFO - Train loss: 0.2540
+2025-05-16 04:12:54,017 - CNN - INFO - average test acc: 89.44%
+2025-05-16 04:13:00,864 - CNN - INFO - Epoch: 130
+2025-05-16 04:13:00,865 - CNN - INFO - Train loss: 0.2647
+2025-05-16 04:13:05,147 - CNN - INFO - average test acc: 86.42%
+2025-05-16 04:13:11,949 - CNN - INFO - Epoch: 131
+2025-05-16 04:13:11,950 - CNN - INFO - Train loss: 0.2412
+2025-05-16 04:13:16,260 - CNN - INFO - average test acc: 88.70%
+2025-05-16 04:13:23,257 - CNN - INFO - Epoch: 132
+2025-05-16 04:13:23,257 - CNN - INFO - Train loss: 0.2515
+2025-05-16 04:13:27,602 - CNN - INFO - average test acc: 87.54%
+2025-05-16 04:13:34,661 - CNN - INFO - Epoch: 133
+2025-05-16 04:13:34,661 - CNN - INFO - Train loss: 0.2641
+2025-05-16 04:13:39,048 - CNN - INFO - average test acc: 87.26%
+2025-05-16 04:13:46,041 - CNN - INFO - Epoch: 134
+2025-05-16 04:13:46,041 - CNN - INFO - Train loss: 0.2723
+2025-05-16 04:13:50,385 - CNN - INFO - average test acc: 89.34%
+2025-05-16 04:13:57,336 - CNN - INFO - Epoch: 135
+2025-05-16 04:13:57,336 - CNN - INFO - Train loss: 0.2335
+2025-05-16 04:14:01,665 - CNN - INFO - average test acc: 89.30%
+2025-05-16 04:14:08,735 - CNN - INFO - Epoch: 136
+2025-05-16 04:14:08,735 - CNN - INFO - Train loss: 0.2385
+2025-05-16 04:14:13,129 - CNN - INFO - average test acc: 89.93%
+2025-05-16 04:14:20,094 - CNN - INFO - Epoch: 137
+2025-05-16 04:14:20,094 - CNN - INFO - Train loss: 0.2442
+2025-05-16 04:14:24,428 - CNN - INFO - average test acc: 89.70%
+2025-05-16 04:14:31,269 - CNN - INFO - Epoch: 138
+2025-05-16 04:14:31,270 - CNN - INFO - Train loss: 0.2384
+2025-05-16 04:14:35,586 - CNN - INFO - average test acc: 89.39%
+2025-05-16 04:14:42,462 - CNN - INFO - Epoch: 139
+2025-05-16 04:14:42,463 - CNN - INFO - Train loss: 0.2403
+2025-05-16 04:14:46,763 - CNN - INFO - average test acc: 88.00%
+2025-05-16 04:14:53,617 - CNN - INFO - Epoch: 140
+2025-05-16 04:14:53,617 - CNN - INFO - Train loss: 0.2523
+2025-05-16 04:14:57,942 - CNN - INFO - average test acc: 89.17%
+2025-05-16 04:15:04,897 - CNN - INFO - Epoch: 141
+2025-05-16 04:15:04,897 - CNN - INFO - Train loss: 0.2627
+2025-05-16 04:15:09,217 - CNN - INFO - average test acc: 86.35%
+2025-05-16 04:15:16,322 - CNN - INFO - Epoch: 142
+2025-05-16 04:15:16,322 - CNN - INFO - Train loss: 0.2503
+2025-05-16 04:15:20,713 - CNN - INFO - average test acc: 88.95%
+2025-05-16 04:15:27,789 - CNN - INFO - Epoch: 143
+2025-05-16 04:15:27,789 - CNN - INFO - Train loss: 0.2436
+2025-05-16 04:15:32,120 - CNN - INFO - average test acc: 88.52%
+2025-05-16 04:15:39,125 - CNN - INFO - Epoch: 144
+2025-05-16 04:15:39,125 - CNN - INFO - Train loss: 0.2572
+2025-05-16 04:15:43,416 - CNN - INFO - average test acc: 87.88%
+2025-05-16 04:15:50,459 - CNN - INFO - Epoch: 145
+2025-05-16 04:15:50,459 - CNN - INFO - Train loss: 0.2488
+2025-05-16 04:15:54,755 - CNN - INFO - average test acc: 88.29%
+2025-05-16 04:16:01,729 - CNN - INFO - Epoch: 146
+2025-05-16 04:16:01,729 - CNN - INFO - Train loss: 0.2378
+2025-05-16 04:16:06,024 - CNN - INFO - average test acc: 89.55%
+2025-05-16 04:16:12,977 - CNN - INFO - Epoch: 147
+2025-05-16 04:16:12,978 - CNN - INFO - Train loss: 0.2508
+2025-05-16 04:16:17,297 - CNN - INFO - average test acc: 88.56%
+2025-05-16 04:16:24,162 - CNN - INFO - Epoch: 148
+2025-05-16 04:16:24,162 - CNN - INFO - Train loss: 0.2249
+2025-05-16 04:16:28,695 - CNN - INFO - average test acc: 89.09%
+2025-05-16 04:16:35,932 - CNN - INFO - Epoch: 149
+2025-05-16 04:16:35,932 - CNN - INFO - Train loss: 0.2337
+2025-05-16 04:16:40,493 - CNN - INFO - average test acc: 89.16%
+2025-05-16 04:16:47,612 - CNN - INFO - Epoch: 150
+2025-05-16 04:16:47,612 - CNN - INFO - Train loss: 0.2412
+2025-05-16 04:16:52,183 - CNN - INFO - average test acc: 89.17%
+2025-05-16 04:16:59,550 - CNN - INFO - Epoch: 151
+2025-05-16 04:16:59,550 - CNN - INFO - Train loss: 0.2311
+2025-05-16 04:17:04,103 - CNN - INFO - average test acc: 88.37%
+2025-05-16 04:17:11,068 - CNN - INFO - Epoch: 152
+2025-05-16 04:17:11,068 - CNN - INFO - Train loss: 0.2282
+2025-05-16 04:17:15,565 - CNN - INFO - average test acc: 89.42%
+2025-05-16 04:17:22,773 - CNN - INFO - Epoch: 153
+2025-05-16 04:17:22,773 - CNN - INFO - Train loss: 0.2386
+2025-05-16 04:17:27,285 - CNN - INFO - average test acc: 86.40%
+2025-05-16 04:17:34,385 - CNN - INFO - Epoch: 154
+2025-05-16 04:17:34,385 - CNN - INFO - Train loss: 0.2506
+2025-05-16 04:17:38,803 - CNN - INFO - average test acc: 87.02%
+2025-05-16 04:17:45,895 - CNN - INFO - Epoch: 155
+2025-05-16 04:17:45,895 - CNN - INFO - Train loss: 0.2356
+2025-05-16 04:17:50,254 - CNN - INFO - average test acc: 88.76%
+2025-05-16 04:17:57,175 - CNN - INFO - Epoch: 156
+2025-05-16 04:17:57,176 - CNN - INFO - Train loss: 0.2514
+2025-05-16 04:18:01,370 - CNN - INFO - average test acc: 87.54%
+2025-05-16 04:18:08,145 - CNN - INFO - Epoch: 157
+2025-05-16 04:18:08,145 - CNN - INFO - Train loss: 0.2554
+2025-05-16 04:18:12,475 - CNN - INFO - average test acc: 88.08%
+2025-05-16 04:18:19,119 - CNN - INFO - Epoch: 158
+2025-05-16 04:18:19,119 - CNN - INFO - Train loss: 0.2378
+2025-05-16 04:18:23,332 - CNN - INFO - average test acc: 88.75%
+2025-05-16 04:18:30,052 - CNN - INFO - Epoch: 159
+2025-05-16 04:18:30,052 - CNN - INFO - Train loss: 0.2551
+2025-05-16 04:18:34,308 - CNN - INFO - average test acc: 88.25%
+2025-05-16 04:18:41,209 - CNN - INFO - Epoch: 160
+2025-05-16 04:18:41,209 - CNN - INFO - Train loss: 0.2399
+2025-05-16 04:18:45,577 - CNN - INFO - average test acc: 88.29%
+2025-05-16 04:18:52,439 - CNN - INFO - Epoch: 161
+2025-05-16 04:18:52,439 - CNN - INFO - Train loss: 0.2335
+2025-05-16 04:18:56,668 - CNN - INFO - average test acc: 86.87%
+2025-05-16 04:19:03,725 - CNN - INFO - Epoch: 162
+2025-05-16 04:19:03,725 - CNN - INFO - Train loss: 0.2336
+2025-05-16 04:19:07,982 - CNN - INFO - average test acc: 88.59%
+2025-05-16 04:19:15,103 - CNN - INFO - Epoch: 163
+2025-05-16 04:19:15,103 - CNN - INFO - Train loss: 0.2354
+2025-05-16 04:19:19,360 - CNN - INFO - average test acc: 88.21%
+2025-05-16 04:19:26,267 - CNN - INFO - Epoch: 164
+2025-05-16 04:19:26,267 - CNN - INFO - Train loss: 0.2430
+2025-05-16 04:19:30,586 - CNN - INFO - average test acc: 87.60%
+2025-05-16 04:19:37,370 - CNN - INFO - Epoch: 165
+2025-05-16 04:19:37,371 - CNN - INFO - Train loss: 0.2418
+2025-05-16 04:19:41,645 - CNN - INFO - average test acc: 88.67%
+2025-05-16 04:19:48,324 - CNN - INFO - Epoch: 166
+2025-05-16 04:19:48,324 - CNN - INFO - Train loss: 0.2439
+2025-05-16 04:19:52,529 - CNN - INFO - average test acc: 88.19%
+2025-05-16 04:19:59,186 - CNN - INFO - Epoch: 167
+2025-05-16 04:19:59,186 - CNN - INFO - Train loss: 0.2247
+2025-05-16 04:20:03,406 - CNN - INFO - average test acc: 86.61%
+2025-05-16 04:20:10,025 - CNN - INFO - Epoch: 168
+2025-05-16 04:20:10,025 - CNN - INFO - Train loss: 0.2202
+2025-05-16 04:20:14,197 - CNN - INFO - average test acc: 89.12%
+2025-05-16 04:20:20,970 - CNN - INFO - Epoch: 169
+2025-05-16 04:20:20,970 - CNN - INFO - Train loss: 0.2332
+2025-05-16 04:20:25,099 - CNN - INFO - average test acc: 88.38%
+2025-05-16 04:20:31,951 - CNN - INFO - Epoch: 170
+2025-05-16 04:20:31,952 - CNN - INFO - Train loss: 0.2204
+2025-05-16 04:20:36,155 - CNN - INFO - average test acc: 87.12%
+2025-05-16 04:20:43,070 - CNN - INFO - Epoch: 171
+2025-05-16 04:20:43,070 - CNN - INFO - Train loss: 0.2191
+2025-05-16 04:20:47,189 - CNN - INFO - average test acc: 89.19%
+2025-05-16 04:20:54,030 - CNN - INFO - Epoch: 172
+2025-05-16 04:20:54,030 - CNN - INFO - Train loss: 0.2211
+2025-05-16 04:20:58,244 - CNN - INFO - average test acc: 89.71%
+2025-05-16 04:21:04,926 - CNN - INFO - Epoch: 173
+2025-05-16 04:21:04,926 - CNN - INFO - Train loss: 0.2294
+2025-05-16 04:21:09,246 - CNN - INFO - average test acc: 86.82%
+2025-05-16 04:21:15,974 - CNN - INFO - Epoch: 174
+2025-05-16 04:21:15,974 - CNN - INFO - Train loss: 0.2177
+2025-05-16 04:21:20,206 - CNN - INFO - average test acc: 88.57%
+2025-05-16 04:21:26,868 - CNN - INFO - Epoch: 175
+2025-05-16 04:21:26,868 - CNN - INFO - Train loss: 0.2257
+2025-05-16 04:21:31,067 - CNN - INFO - average test acc: 88.46%
+2025-05-16 04:21:37,645 - CNN - INFO - Epoch: 176
+2025-05-16 04:21:37,645 - CNN - INFO - Train loss: 0.2200
+2025-05-16 04:21:41,840 - CNN - INFO - average test acc: 89.63%
+2025-05-16 04:21:48,407 - CNN - INFO - Epoch: 177
+2025-05-16 04:21:48,407 - CNN - INFO - Train loss: 0.2178
+2025-05-16 04:21:52,807 - CNN - INFO - average test acc: 87.82%
+2025-05-16 04:21:59,731 - CNN - INFO - Epoch: 178
+2025-05-16 04:21:59,731 - CNN - INFO - Train loss: 0.2143
+2025-05-16 04:22:03,811 - CNN - INFO - average test acc: 89.09%
+2025-05-16 04:22:10,871 - CNN - INFO - Epoch: 179
+2025-05-16 04:22:10,872 - CNN - INFO - Train loss: 0.2074
+2025-05-16 04:22:15,120 - CNN - INFO - average test acc: 87.94%
+2025-05-16 04:22:22,158 - CNN - INFO - Epoch: 180
+2025-05-16 04:22:22,158 - CNN - INFO - Train loss: 0.2306
+2025-05-16 04:22:26,209 - CNN - INFO - average test acc: 85.40%
+2025-05-16 04:22:33,190 - CNN - INFO - Epoch: 181
+2025-05-16 04:22:33,190 - CNN - INFO - Train loss: 0.2290
+2025-05-16 04:22:37,412 - CNN - INFO - average test acc: 88.94%
+2025-05-16 04:22:44,265 - CNN - INFO - Epoch: 182
+2025-05-16 04:22:44,265 - CNN - INFO - Train loss: 0.2368
+2025-05-16 04:22:48,477 - CNN - INFO - average test acc: 89.37%
+2025-05-16 04:22:55,339 - CNN - INFO - Epoch: 183
+2025-05-16 04:22:55,340 - CNN - INFO - Train loss: 0.2227
+2025-05-16 04:22:59,338 - CNN - INFO - average test acc: 88.99%
+2025-05-16 04:23:06,063 - CNN - INFO - Epoch: 184
+2025-05-16 04:23:06,063 - CNN - INFO - Train loss: 0.2231
+2025-05-16 04:23:10,221 - CNN - INFO - average test acc: 90.40%
+2025-05-16 04:23:16,834 - CNN - INFO - Epoch: 185
+2025-05-16 04:23:16,834 - CNN - INFO - Train loss: 0.2186
+2025-05-16 04:23:21,053 - CNN - INFO - average test acc: 89.37%
+2025-05-16 04:23:27,890 - CNN - INFO - Epoch: 186
+2025-05-16 04:23:27,890 - CNN - INFO - Train loss: 0.2056
+2025-05-16 04:23:31,929 - CNN - INFO - average test acc: 89.31%
+2025-05-16 04:23:38,862 - CNN - INFO - Epoch: 187
+2025-05-16 04:23:38,862 - CNN - INFO - Train loss: 0.2260
+2025-05-16 04:23:42,951 - CNN - INFO - average test acc: 86.26%
+2025-05-16 04:23:49,962 - CNN - INFO - Epoch: 188
+2025-05-16 04:23:49,962 - CNN - INFO - Train loss: 0.2327
+2025-05-16 04:23:53,985 - CNN - INFO - average test acc: 89.67%
+2025-05-16 04:24:00,828 - CNN - INFO - Epoch: 189
+2025-05-16 04:24:00,829 - CNN - INFO - Train loss: 0.2107
+2025-05-16 04:24:04,793 - CNN - INFO - average test acc: 88.87%
+2025-05-16 04:24:11,710 - CNN - INFO - Epoch: 190
+2025-05-16 04:24:11,711 - CNN - INFO - Train loss: 0.1987
+2025-05-16 04:24:15,810 - CNN - INFO - average test acc: 89.88%
+2025-05-16 04:24:22,588 - CNN - INFO - Epoch: 191
+2025-05-16 04:24:22,588 - CNN - INFO - Train loss: 0.2187
+2025-05-16 04:24:26,657 - CNN - INFO - average test acc: 89.58%
+2025-05-16 04:24:33,366 - CNN - INFO - Epoch: 192
+2025-05-16 04:24:33,366 - CNN - INFO - Train loss: 0.2268
+2025-05-16 04:24:37,391 - CNN - INFO - average test acc: 88.63%
+2025-05-16 04:24:43,970 - CNN - INFO - Epoch: 193
+2025-05-16 04:24:43,970 - CNN - INFO - Train loss: 0.2265
+2025-05-16 04:24:48,075 - CNN - INFO - average test acc: 89.39%
+2025-05-16 04:24:54,790 - CNN - INFO - Epoch: 194
+2025-05-16 04:24:54,790 - CNN - INFO - Train loss: 0.2122
+2025-05-16 04:24:58,985 - CNN - INFO - average test acc: 88.87%
+2025-05-16 04:25:05,610 - CNN - INFO - Epoch: 195
+2025-05-16 04:25:05,611 - CNN - INFO - Train loss: 0.2170
+2025-05-16 04:25:09,716 - CNN - INFO - average test acc: 88.91%
+2025-05-16 04:25:16,606 - CNN - INFO - Epoch: 196
+2025-05-16 04:25:16,607 - CNN - INFO - Train loss: 0.2115
+2025-05-16 04:25:20,649 - CNN - INFO - average test acc: 87.64%
+2025-05-16 04:25:27,537 - CNN - INFO - Epoch: 197
+2025-05-16 04:25:27,537 - CNN - INFO - Train loss: 0.2220
+2025-05-16 04:25:31,638 - CNN - INFO - average test acc: 90.52%
+2025-05-16 04:25:38,505 - CNN - INFO - Epoch: 198
+2025-05-16 04:25:38,505 - CNN - INFO - Train loss: 0.2196
+2025-05-16 04:25:42,524 - CNN - INFO - average test acc: 89.09%
+2025-05-16 04:25:49,492 - CNN - INFO - Epoch: 199
+2025-05-16 04:25:49,493 - CNN - INFO - Train loss: 0.2096
+2025-05-16 04:25:53,579 - CNN - INFO - average test acc: 86.49%
+2025-05-16 04:26:00,430 - CNN - INFO - Epoch: 200
+2025-05-16 04:26:00,431 - CNN - INFO - Train loss: 0.2154
+2025-05-16 04:26:04,565 - CNN - INFO - average test acc: 90.26%
+2025-05-16 04:26:11,296 - CNN - INFO - Epoch: 201
+2025-05-16 04:26:11,296 - CNN - INFO - Train loss: 0.1983
+2025-05-16 04:26:15,475 - CNN - INFO - average test acc: 89.77%
+2025-05-16 04:26:22,101 - CNN - INFO - Epoch: 202
+2025-05-16 04:26:22,101 - CNN - INFO - Train loss: 0.2177
+2025-05-16 04:26:26,145 - CNN - INFO - average test acc: 89.34%
+2025-05-16 04:26:32,909 - CNN - INFO - Epoch: 203
+2025-05-16 04:26:32,909 - CNN - INFO - Train loss: 0.2011
+2025-05-16 04:26:36,999 - CNN - INFO - average test acc: 89.10%
+2025-05-16 04:26:43,821 - CNN - INFO - Epoch: 204
+2025-05-16 04:26:43,821 - CNN - INFO - Train loss: 0.2045
+2025-05-16 04:26:47,924 - CNN - INFO - average test acc: 90.51%
+2025-05-16 04:26:54,744 - CNN - INFO - Epoch: 205
+2025-05-16 04:26:54,744 - CNN - INFO - Train loss: 0.2171
+2025-05-16 04:26:58,829 - CNN - INFO - average test acc: 89.42%
+2025-05-16 04:27:05,745 - CNN - INFO - Epoch: 206
+2025-05-16 04:27:05,745 - CNN - INFO - Train loss: 0.2063
+2025-05-16 04:27:09,939 - CNN - INFO - average test acc: 89.55%
+2025-05-16 04:27:16,947 - CNN - INFO - Epoch: 207
+2025-05-16 04:27:16,947 - CNN - INFO - Train loss: 0.2095
+2025-05-16 04:27:21,010 - CNN - INFO - average test acc: 88.87%
+2025-05-16 04:27:27,719 - CNN - INFO - Epoch: 208
+2025-05-16 04:27:27,719 - CNN - INFO - Train loss: 0.1958
+2025-05-16 04:27:31,925 - CNN - INFO - average test acc: 87.91%
+2025-05-16 04:27:38,549 - CNN - INFO - Epoch: 209
+2025-05-16 04:27:38,549 - CNN - INFO - Train loss: 0.2307
+2025-05-16 04:27:42,636 - CNN - INFO - average test acc: 88.17%
+2025-05-16 04:27:49,203 - CNN - INFO - Epoch: 210
+2025-05-16 04:27:49,203 - CNN - INFO - Train loss: 0.2100
+2025-05-16 04:27:53,401 - CNN - INFO - average test acc: 89.60%
+2025-05-16 04:28:00,065 - CNN - INFO - Epoch: 211
+2025-05-16 04:28:00,065 - CNN - INFO - Train loss: 0.2048
+2025-05-16 04:28:04,257 - CNN - INFO - average test acc: 89.75%
+2025-05-16 04:28:10,990 - CNN - INFO - Epoch: 212
+2025-05-16 04:28:10,991 - CNN - INFO - Train loss: 0.1922
+2025-05-16 04:28:15,002 - CNN - INFO - average test acc: 88.29%
+2025-05-16 04:28:21,674 - CNN - INFO - Epoch: 213
+2025-05-16 04:28:21,674 - CNN - INFO - Train loss: 0.1986
+2025-05-16 04:28:25,941 - CNN - INFO - average test acc: 88.37%
+2025-05-16 04:28:32,709 - CNN - INFO - Epoch: 214
+2025-05-16 04:28:32,709 - CNN - INFO - Train loss: 0.2055
+2025-05-16 04:28:37,008 - CNN - INFO - average test acc: 89.37%
+2025-05-16 04:28:43,741 - CNN - INFO - Epoch: 215
+2025-05-16 04:28:43,741 - CNN - INFO - Train loss: 0.2047
+2025-05-16 04:28:47,856 - CNN - INFO - average test acc: 89.17%
+2025-05-16 04:28:54,699 - CNN - INFO - Epoch: 216
+2025-05-16 04:28:54,699 - CNN - INFO - Train loss: 0.2095
+2025-05-16 04:28:58,914 - CNN - INFO - average test acc: 89.65%
+2025-05-16 04:29:05,911 - CNN - INFO - Epoch: 217
+2025-05-16 04:29:05,911 - CNN - INFO - Train loss: 0.1992
+2025-05-16 04:29:10,026 - CNN - INFO - average test acc: 89.86%
+2025-05-16 04:29:16,870 - CNN - INFO - Epoch: 218
+2025-05-16 04:29:16,870 - CNN - INFO - Train loss: 0.2096
+2025-05-16 04:29:21,090 - CNN - INFO - average test acc: 90.22%
+2025-05-16 04:29:28,103 - CNN - INFO - Epoch: 219
+2025-05-16 04:29:28,103 - CNN - INFO - Train loss: 0.2000
+2025-05-16 04:29:32,451 - CNN - INFO - average test acc: 89.93%
+2025-05-16 04:29:39,767 - CNN - INFO - Epoch: 220
+2025-05-16 04:29:39,767 - CNN - INFO - Train loss: 0.1971
+2025-05-16 04:29:44,128 - CNN - INFO - average test acc: 87.48%
+2025-05-16 04:29:51,478 - CNN - INFO - Epoch: 221
+2025-05-16 04:29:51,479 - CNN - INFO - Train loss: 0.2202
+2025-05-16 04:29:55,823 - CNN - INFO - average test acc: 90.21%
+2025-05-16 04:30:02,754 - CNN - INFO - Epoch: 222
+2025-05-16 04:30:02,754 - CNN - INFO - Train loss: 0.1950
+2025-05-16 04:30:07,111 - CNN - INFO - average test acc: 89.94%
+2025-05-16 04:30:14,465 - CNN - INFO - Epoch: 223
+2025-05-16 04:30:14,465 - CNN - INFO - Train loss: 0.2206
+2025-05-16 04:30:18,927 - CNN - INFO - average test acc: 89.45%
+2025-05-16 04:30:26,043 - CNN - INFO - Epoch: 224
+2025-05-16 04:30:26,043 - CNN - INFO - Train loss: 0.1961
+2025-05-16 04:30:30,485 - CNN - INFO - average test acc: 89.41%
+2025-05-16 04:30:37,913 - CNN - INFO - Epoch: 225
+2025-05-16 04:30:37,914 - CNN - INFO - Train loss: 0.1899
+2025-05-16 04:30:42,462 - CNN - INFO - average test acc: 88.84%
+2025-05-16 04:30:49,457 - CNN - INFO - Epoch: 226
+2025-05-16 04:30:49,458 - CNN - INFO - Train loss: 0.2126
+2025-05-16 04:30:53,990 - CNN - INFO - average test acc: 89.77%
+2025-05-16 04:31:01,196 - CNN - INFO - Epoch: 227
+2025-05-16 04:31:01,196 - CNN - INFO - Train loss: 0.1827
+2025-05-16 04:31:05,745 - CNN - INFO - average test acc: 90.32%
+2025-05-16 04:31:12,874 - CNN - INFO - Epoch: 228
+2025-05-16 04:31:12,874 - CNN - INFO - Train loss: 0.1965
+2025-05-16 04:31:17,391 - CNN - INFO - average test acc: 87.71%
+2025-05-16 04:31:24,704 - CNN - INFO - Epoch: 229
+2025-05-16 04:31:24,704 - CNN - INFO - Train loss: 0.1955
+2025-05-16 04:31:29,187 - CNN - INFO - average test acc: 88.83%
+2025-05-16 04:31:36,254 - CNN - INFO - Epoch: 230
+2025-05-16 04:31:36,254 - CNN - INFO - Train loss: 0.2006
+2025-05-16 04:31:40,754 - CNN - INFO - average test acc: 87.33%
+2025-05-16 04:31:48,159 - CNN - INFO - Epoch: 231
+2025-05-16 04:31:48,159 - CNN - INFO - Train loss: 0.1925
+2025-05-16 04:31:52,712 - CNN - INFO - average test acc: 89.35%
+2025-05-16 04:31:59,909 - CNN - INFO - Epoch: 232
+2025-05-16 04:31:59,909 - CNN - INFO - Train loss: 0.1970
+2025-05-16 04:32:04,452 - CNN - INFO - average test acc: 87.70%
+2025-05-16 04:32:11,669 - CNN - INFO - Epoch: 233
+2025-05-16 04:32:11,669 - CNN - INFO - Train loss: 0.2102
+2025-05-16 04:32:16,200 - CNN - INFO - average test acc: 91.34%
+2025-05-16 04:32:23,283 - CNN - INFO - Epoch: 234
+2025-05-16 04:32:23,283 - CNN - INFO - Train loss: 0.2030
+2025-05-16 04:32:27,755 - CNN - INFO - average test acc: 89.29%
+2025-05-16 04:32:35,162 - CNN - INFO - Epoch: 235
+2025-05-16 04:32:35,162 - CNN - INFO - Train loss: 0.1951
+2025-05-16 04:32:39,660 - CNN - INFO - average test acc: 88.48%
+2025-05-16 04:32:46,864 - CNN - INFO - Epoch: 236
+2025-05-16 04:32:46,864 - CNN - INFO - Train loss: 0.1915
+2025-05-16 04:32:51,303 - CNN - INFO - average test acc: 89.02%
+2025-05-16 04:32:58,582 - CNN - INFO - Epoch: 237
+2025-05-16 04:32:58,582 - CNN - INFO - Train loss: 0.1947
+2025-05-16 04:33:03,006 - CNN - INFO - average test acc: 89.10%
+2025-05-16 04:33:10,035 - CNN - INFO - Epoch: 238
+2025-05-16 04:33:10,035 - CNN - INFO - Train loss: 0.2024
+2025-05-16 04:33:14,472 - CNN - INFO - average test acc: 88.59%
+2025-05-16 04:33:21,886 - CNN - INFO - Epoch: 239
+2025-05-16 04:33:21,886 - CNN - INFO - Train loss: 0.1931
+2025-05-16 04:33:26,287 - CNN - INFO - average test acc: 89.86%
+2025-05-16 04:33:33,280 - CNN - INFO - Epoch: 240
+2025-05-16 04:33:33,280 - CNN - INFO - Train loss: 0.2001
+2025-05-16 04:33:37,610 - CNN - INFO - average test acc: 90.31%
+2025-05-16 04:33:45,026 - CNN - INFO - Epoch: 241
+2025-05-16 04:33:45,026 - CNN - INFO - Train loss: 0.1986
+2025-05-16 04:33:49,376 - CNN - INFO - average test acc: 88.91%
+2025-05-16 04:33:56,603 - CNN - INFO - Epoch: 242
+2025-05-16 04:33:56,603 - CNN - INFO - Train loss: 0.1872
+2025-05-16 04:34:00,895 - CNN - INFO - average test acc: 88.52%
+2025-05-16 04:34:07,723 - CNN - INFO - Epoch: 243
+2025-05-16 04:34:07,723 - CNN - INFO - Train loss: 0.2004
+2025-05-16 04:34:12,077 - CNN - INFO - average test acc: 88.90%
+2025-05-16 04:34:18,768 - CNN - INFO - Epoch: 244
+2025-05-16 04:34:18,769 - CNN - INFO - Train loss: 0.1906
+2025-05-16 04:34:22,913 - CNN - INFO - average test acc: 90.38%
+2025-05-16 04:34:29,801 - CNN - INFO - Epoch: 245
+2025-05-16 04:34:29,802 - CNN - INFO - Train loss: 0.2010
+2025-05-16 04:34:34,111 - CNN - INFO - average test acc: 90.10%
+2025-05-16 04:34:40,800 - CNN - INFO - Epoch: 246
+2025-05-16 04:34:40,800 - CNN - INFO - Train loss: 0.2037
+2025-05-16 04:34:44,955 - CNN - INFO - average test acc: 89.46%
+2025-05-16 04:34:51,710 - CNN - INFO - Epoch: 247
+2025-05-16 04:34:51,711 - CNN - INFO - Train loss: 0.1925
+2025-05-16 04:34:56,155 - CNN - INFO - average test acc: 90.23%
+2025-05-16 04:35:03,145 - CNN - INFO - Epoch: 248
+2025-05-16 04:35:03,145 - CNN - INFO - Train loss: 0.2064
+2025-05-16 04:35:07,254 - CNN - INFO - average test acc: 90.36%
+2025-05-16 04:35:14,316 - CNN - INFO - Epoch: 249
+2025-05-16 04:35:14,316 - CNN - INFO - Train loss: 0.1963
+2025-05-16 04:35:18,529 - CNN - INFO - average test acc: 91.14%
+2025-05-16 04:35:25,501 - CNN - INFO - Epoch: 250
+2025-05-16 04:35:25,501 - CNN - INFO - Train loss: 0.1724
+2025-05-16 04:35:29,674 - CNN - INFO - average test acc: 91.29%
+2025-05-16 04:35:36,409 - CNN - INFO - Epoch: 251
+2025-05-16 04:35:36,409 - CNN - INFO - Train loss: 0.1946
+2025-05-16 04:35:40,510 - CNN - INFO - average test acc: 89.60%
+2025-05-16 04:35:47,228 - CNN - INFO - Epoch: 252
+2025-05-16 04:35:47,229 - CNN - INFO - Train loss: 0.2006
+2025-05-16 04:35:51,388 - CNN - INFO - average test acc: 90.03%
+2025-05-16 04:35:58,326 - CNN - INFO - Epoch: 253
+2025-05-16 04:35:58,327 - CNN - INFO - Train loss: 0.1980
+2025-05-16 04:36:02,447 - CNN - INFO - average test acc: 90.84%
+2025-05-16 04:36:09,361 - CNN - INFO - Epoch: 254
+2025-05-16 04:36:09,361 - CNN - INFO - Train loss: 0.1890
+2025-05-16 04:36:13,561 - CNN - INFO - average test acc: 89.25%
+2025-05-16 04:36:20,438 - CNN - INFO - Epoch: 255
+2025-05-16 04:36:20,438 - CNN - INFO - Train loss: 0.1806
+2025-05-16 04:36:24,641 - CNN - INFO - average test acc: 90.99%
+2025-05-16 04:36:31,815 - CNN - INFO - Epoch: 256
+2025-05-16 04:36:31,815 - CNN - INFO - Train loss: 0.1944
+2025-05-16 04:36:36,113 - CNN - INFO - average test acc: 90.92%
+2025-05-16 04:36:43,139 - CNN - INFO - Epoch: 257
+2025-05-16 04:36:43,139 - CNN - INFO - Train loss: 0.1820
+2025-05-16 04:36:47,420 - CNN - INFO - average test acc: 91.33%
+2025-05-16 04:36:54,522 - CNN - INFO - Epoch: 258
+2025-05-16 04:36:54,522 - CNN - INFO - Train loss: 0.1944
+2025-05-16 04:36:58,812 - CNN - INFO - average test acc: 89.90%
+2025-05-16 04:37:06,257 - CNN - INFO - Epoch: 259
+2025-05-16 04:37:06,257 - CNN - INFO - Train loss: 0.1910
+2025-05-16 04:37:10,530 - CNN - INFO - average test acc: 89.77%
+2025-05-16 04:37:17,569 - CNN - INFO - Epoch: 260
+2025-05-16 04:37:17,569 - CNN - INFO - Train loss: 0.1864
+2025-05-16 04:37:21,816 - CNN - INFO - average test acc: 90.45%
+2025-05-16 04:37:29,392 - CNN - INFO - Epoch: 261
+2025-05-16 04:37:29,392 - CNN - INFO - Train loss: 0.1863
+2025-05-16 04:37:33,590 - CNN - INFO - average test acc: 88.92%
+2025-05-16 04:37:40,811 - CNN - INFO - Epoch: 262
+2025-05-16 04:37:40,811 - CNN - INFO - Train loss: 0.1911
+2025-05-16 04:37:44,975 - CNN - INFO - average test acc: 91.28%
+2025-05-16 04:37:52,739 - CNN - INFO - Epoch: 263
+2025-05-16 04:37:52,739 - CNN - INFO - Train loss: 0.1978
+2025-05-16 04:37:56,979 - CNN - INFO - average test acc: 90.71%
+2025-05-16 04:38:04,005 - CNN - INFO - Epoch: 264
+2025-05-16 04:38:04,005 - CNN - INFO - Train loss: 0.1880
+2025-05-16 04:38:08,219 - CNN - INFO - average test acc: 89.56%
+2025-05-16 04:38:16,160 - CNN - INFO - Epoch: 265
+2025-05-16 04:38:16,161 - CNN - INFO - Train loss: 0.1850
+2025-05-16 04:38:20,469 - CNN - INFO - average test acc: 89.39%
+2025-05-16 04:38:27,668 - CNN - INFO - Epoch: 266
+2025-05-16 04:38:27,669 - CNN - INFO - Train loss: 0.1873
+2025-05-16 04:38:31,973 - CNN - INFO - average test acc: 90.97%
+2025-05-16 04:38:39,111 - CNN - INFO - Epoch: 267
+2025-05-16 04:38:39,111 - CNN - INFO - Train loss: 0.1705
+2025-05-16 04:38:43,451 - CNN - INFO - average test acc: 91.10%
+2025-05-16 04:38:50,654 - CNN - INFO - Epoch: 268
+2025-05-16 04:38:50,654 - CNN - INFO - Train loss: 0.1886
+2025-05-16 04:38:55,013 - CNN - INFO - average test acc: 90.52%
+2025-05-16 04:39:02,453 - CNN - INFO - Epoch: 269
+2025-05-16 04:39:02,453 - CNN - INFO - Train loss: 0.1937
+2025-05-16 04:39:06,834 - CNN - INFO - average test acc: 90.99%
+2025-05-16 04:39:13,966 - CNN - INFO - Epoch: 270
+2025-05-16 04:39:13,966 - CNN - INFO - Train loss: 0.1872
+2025-05-16 04:39:18,364 - CNN - INFO - average test acc: 89.58%
+2025-05-16 04:39:25,791 - CNN - INFO - Epoch: 271
+2025-05-16 04:39:25,792 - CNN - INFO - Train loss: 0.1785
+2025-05-16 04:39:30,255 - CNN - INFO - average test acc: 90.17%
+2025-05-16 04:39:37,495 - CNN - INFO - Epoch: 272
+2025-05-16 04:39:37,495 - CNN - INFO - Train loss: 0.1792
+2025-05-16 04:39:42,012 - CNN - INFO - average test acc: 90.97%
+2025-05-16 04:39:49,096 - CNN - INFO - Epoch: 273
+2025-05-16 04:39:49,096 - CNN - INFO - Train loss: 0.1682
+2025-05-16 04:39:53,610 - CNN - INFO - average test acc: 88.52%
+2025-05-16 04:40:01,046 - CNN - INFO - Epoch: 274
+2025-05-16 04:40:01,047 - CNN - INFO - Train loss: 0.1852
+2025-05-16 04:40:05,622 - CNN - INFO - average test acc: 89.16%
+2025-05-16 04:40:12,845 - CNN - INFO - Epoch: 275
+2025-05-16 04:40:12,845 - CNN - INFO - Train loss: 0.1945
+2025-05-16 04:40:17,402 - CNN - INFO - average test acc: 90.35%
+2025-05-16 04:40:24,558 - CNN - INFO - Epoch: 276
+2025-05-16 04:40:24,558 - CNN - INFO - Train loss: 0.1676
+2025-05-16 04:40:29,087 - CNN - INFO - average test acc: 88.69%
+2025-05-16 04:40:36,357 - CNN - INFO - Epoch: 277
+2025-05-16 04:40:36,357 - CNN - INFO - Train loss: 0.1785
+2025-05-16 04:40:40,933 - CNN - INFO - average test acc: 89.63%
+2025-05-16 04:40:48,229 - CNN - INFO - Epoch: 278
+2025-05-16 04:40:48,229 - CNN - INFO - Train loss: 0.1868
+2025-05-16 04:40:52,798 - CNN - INFO - average test acc: 90.06%
+2025-05-16 04:41:00,771 - CNN - INFO - Epoch: 279
+2025-05-16 04:41:00,771 - CNN - INFO - Train loss: 0.1748
+2025-05-16 04:41:05,285 - CNN - INFO - average test acc: 89.67%
+2025-05-16 04:41:12,399 - CNN - INFO - Epoch: 280
+2025-05-16 04:41:12,399 - CNN - INFO - Train loss: 0.1882
+2025-05-16 04:41:16,860 - CNN - INFO - average test acc: 89.17%
+2025-05-16 04:41:23,785 - CNN - INFO - Epoch: 281
+2025-05-16 04:41:23,785 - CNN - INFO - Train loss: 0.1869
+2025-05-16 04:41:28,259 - CNN - INFO - average test acc: 90.54%
+2025-05-16 04:41:35,463 - CNN - INFO - Epoch: 282
+2025-05-16 04:41:35,463 - CNN - INFO - Train loss: 0.1707
+2025-05-16 04:41:39,910 - CNN - INFO - average test acc: 89.49%
+2025-05-16 04:41:47,411 - CNN - INFO - Epoch: 283
+2025-05-16 04:41:47,411 - CNN - INFO - Train loss: 0.1774
+2025-05-16 04:41:51,809 - CNN - INFO - average test acc: 89.51%
+2025-05-16 04:41:58,804 - CNN - INFO - Epoch: 284
+2025-05-16 04:41:58,804 - CNN - INFO - Train loss: 0.1776
+2025-05-16 04:42:03,165 - CNN - INFO - average test acc: 90.48%
+2025-05-16 04:42:10,657 - CNN - INFO - Epoch: 285
+2025-05-16 04:42:10,658 - CNN - INFO - Train loss: 0.1800
+2025-05-16 04:42:14,988 - CNN - INFO - average test acc: 90.63%
+2025-05-16 04:42:22,213 - CNN - INFO - Epoch: 286
+2025-05-16 04:42:22,213 - CNN - INFO - Train loss: 0.1966
+2025-05-16 04:42:26,505 - CNN - INFO - average test acc: 89.36%
+2025-05-16 04:42:33,953 - CNN - INFO - Epoch: 287
+2025-05-16 04:42:33,953 - CNN - INFO - Train loss: 0.1740
+2025-05-16 04:42:38,238 - CNN - INFO - average test acc: 90.82%
+2025-05-16 04:42:45,174 - CNN - INFO - Epoch: 288
+2025-05-16 04:42:45,174 - CNN - INFO - Train loss: 0.1614
+2025-05-16 04:42:49,395 - CNN - INFO - average test acc: 90.13%
+2025-05-16 04:42:56,998 - CNN - INFO - Epoch: 289
+2025-05-16 04:42:56,998 - CNN - INFO - Train loss: 0.1726
+2025-05-16 04:43:01,179 - CNN - INFO - average test acc: 89.41%
+2025-05-16 04:43:08,371 - CNN - INFO - Epoch: 290
+2025-05-16 04:43:08,371 - CNN - INFO - Train loss: 0.1841
+2025-05-16 04:43:12,596 - CNN - INFO - average test acc: 89.90%
+2025-05-16 04:43:19,255 - CNN - INFO - Epoch: 291
+2025-05-16 04:43:19,255 - CNN - INFO - Train loss: 0.1680
+2025-05-16 04:43:23,478 - CNN - INFO - average test acc: 88.68%
+2025-05-16 04:43:31,023 - CNN - INFO - Epoch: 292
+2025-05-16 04:43:31,023 - CNN - INFO - Train loss: 0.1738
+2025-05-16 04:43:35,242 - CNN - INFO - average test acc: 89.48%
+2025-05-16 04:43:42,152 - CNN - INFO - Epoch: 293
+2025-05-16 04:43:42,152 - CNN - INFO - Train loss: 0.1848
+2025-05-16 04:43:46,387 - CNN - INFO - average test acc: 89.13%
+2025-05-16 04:43:53,850 - CNN - INFO - Epoch: 294
+2025-05-16 04:43:53,850 - CNN - INFO - Train loss: 0.1579
+2025-05-16 04:43:58,003 - CNN - INFO - average test acc: 89.44%
+2025-05-16 04:44:04,510 - CNN - INFO - Epoch: 295
+2025-05-16 04:44:04,510 - CNN - INFO - Train loss: 0.1819
+2025-05-16 04:44:08,529 - CNN - INFO - average test acc: 89.22%
+2025-05-16 04:44:15,039 - CNN - INFO - Epoch: 296
+2025-05-16 04:44:15,040 - CNN - INFO - Train loss: 0.1785
+2025-05-16 04:44:19,055 - CNN - INFO - average test acc: 90.06%
+2025-05-16 04:44:25,549 - CNN - INFO - Epoch: 297
+2025-05-16 04:44:25,550 - CNN - INFO - Train loss: 0.1740
+2025-05-16 04:44:29,556 - CNN - INFO - average test acc: 89.47%
+2025-05-16 04:44:36,042 - CNN - INFO - Epoch: 298
+2025-05-16 04:44:36,042 - CNN - INFO - Train loss: 0.1655
+2025-05-16 04:44:40,052 - CNN - INFO - average test acc: 90.73%
+2025-05-16 04:44:46,548 - CNN - INFO - Epoch: 299
+2025-05-16 04:44:46,548 - CNN - INFO - Train loss: 0.1767
+2025-05-16 04:44:50,548 - CNN - INFO - average test acc: 90.24%
+2025-05-16 04:44:57,049 - CNN - INFO - Epoch: 300
+2025-05-16 04:44:57,049 - CNN - INFO - Train loss: 0.1729
+2025-05-16 04:45:01,059 - CNN - INFO - average test acc: 89.74%
