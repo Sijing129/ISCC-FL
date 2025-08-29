@@ -6,7 +6,7 @@ This repository contains the official implementation of our paper "Integrated Se
 
 Our proposed framework is illustrated below:
  ![Framework](ISCC_FL_System_Model.pdf)
-*Figure 1: An ISCC-based Air-FEEL system.*
+
 
 ## How to use it
 Following are the brief introductions of each file.
